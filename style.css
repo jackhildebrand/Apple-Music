@@ -1,0 +1,88 @@
+html {
+  background-color: black
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  justify-content: center;
+  color: #fc3c44;
+  background-color: black;
+}
+
+#playlistName {
+  color: white;
+  text-align: center;
+}
+  
+#userName {
+  margin-bottom: 0px;
+  text-align: center;
+  color: #fc3c44;
+}
+  
+#updated {
+  color: darkgray;
+  font-size: small;
+  margin-top: 0px;
+}
+  
+#playButton {
+  color: #fc3c44;
+  background-color: rgb(34, 34, 34);
+  font-size: medium;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  margin-left: 25px;
+  justify-content: center;
+}
+  
+#shuffleButton {
+  color: #fc3c44;
+  background-color: rgb(34, 34, 34);
+  font-size: medium;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  margin-left: 25px;
+  justify-content: center;
+}
+  
+#song {
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+  
+#wrapper {
+  text-align: center;
+  
+}
+  
+#centered {
+  display: inline-block;
+  position: relative;
+}
+  
+#left {
+  position: absolute;
+  right: 100%;
+  width: 100px;
+  top: 0;
+}
+  
+hr {
+  color: darkgray;
+}
+
+#song {
+  color: #fc3c44;
+}

@@ -4,44 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Apple Music</title>
 </head>
 <body>
+<div class="app">
   <img src='./icons/red.png' height={300} width={350} alt='img'></img>
-  <h1 className='playlistName'>
+  <h1 id="playlistName">
     Playlist
   </h1>
-  <h1 className='userName'>
+  <h1 id='userName'>
     Jack Hildebrand
   </h1>
-  <h1 className='updated'>
+  <h1 id='updated'>
     UPDATED MONDAY
   </h1>
-  <button className='playButton'><span className='icon'></span><a href='#'></a>Play</button>
-  <button className='shuffleButton'><i className='shuffleIcon'></i>Shuffle</button>
+  <button id='playButton'><span id='icon'></span><a href='#'></a>Play</button>
+  <button id='shuffleButton'><i id='shuffleIcon'></i>Shuffle</button>
   <hr></hr>
-  <div className='wrapper'>
-    <div className='centered'>
-      <p className='song'>song 1</p>
-      <div className='left'>
+  <div id='wrapper'>
+    <div id='centered'>
+      <p id='song'>song 1</p>
+      <div id='left'>
         <img src='./icons/red.png' alt='song' height='50' width='50'></img>
       </div>
     </div>
   </div>
-  <hr></hr>
-  <p className='song'>song 2</p>
-  <hr></hr>
-  <p className='song'>song 3</p>
-  <hr></hr>
-  <p className='song'>song 4</p>
-  <hr></hr>
-  <p className='song'>song 5</p>
-  <hr></hr>
-  <p className='song'>song 6</p>
-  <hr></hr>
-  <p className='song'>song 7</p>
-  <hr></hr>
-  <p className='song'>song 8</p>
+  <div class="songs">
+    <hr></hr>
+    <p id='song'>song 2</p>
+    <hr></hr>
+    <p id='song'>song 3</p>
+    <hr></hr>
+    <p id='song'>song 4</p>
+    <hr></hr>
+    <p id='song'>song 5</p>
+    <hr></hr>
+    <p id='song'>song 6</p>
+    <hr></hr>
+    <p id='song'>song 7</p>
+    <hr></hr>
+    <p id='song'>song 8</p>
+  </div>
+</div>
+  
 </body>
 </html>
